@@ -47,7 +47,7 @@ function makeSound(key) {
       break;
 
     case "j":
-      var snare = new Audio('./sounds/snare.mp3');
+      var snare = new Audio('sounds/snare.mp3');
       snare.play();
       break;
 
@@ -57,7 +57,7 @@ function makeSound(key) {
       break;
 
     case "l":
-      var kick = new Audio('sounds/kick-bass.mp3');
+      var kick = new Audio('./Drum/sounds/kick-bass.mp3');
       kick.play();
       break;
 
